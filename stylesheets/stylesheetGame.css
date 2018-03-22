@@ -76,6 +76,12 @@ iframe{
     padding-top: 2%;
 }
 
+OBJECT{
+    margin: auto;
+    display: block;
+    padding-top: 2%;
+}
+
 .displayOfGame{
 	background-color: rgba(118, 93, 53, 0.6);
 	width: 99%;
