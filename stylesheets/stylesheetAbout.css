@@ -15,7 +15,6 @@ body{
 }
 
 header{
-	height: 30%;
 	padding: 0px;
 	margin: 0px;
 }
@@ -47,6 +46,7 @@ section {
 	background-color:rgba(118, 93, 53, 0.6);
 	border-radius: 5px;
 	padding: 5px 50px;
+	margin: 1% 0 0 0;
 }
 
 
