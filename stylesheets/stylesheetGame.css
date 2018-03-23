@@ -15,41 +15,43 @@ html{
 }
 
 header{
-	height: 9.375em;
-	padding: 0;
-	margin: 0;
+    padding: 0;
+    margin: 0;
 }
 
 section{
-	padding: 0;
-	margin: 0;
+    padding: 0; 
+    margin: 0;
 }
 
-img{
+header img{
+    height: auto%;
     width: 100%;
     display: block;
     margin: auto;
     float: left;
+    padding: 0%;
+    margin: 0%;
 }
 
 h1{
-	text-decoration: none;
-	font-family: Wellfleet;
-	border-bottom-style: solid;
-	border-width: 0.125em;
-	width: 8.125em;
-	padding: 0;
-	margin: 0;
+    text-decoration: none;
+    font-family: Wellfleet;
+    border-bottom-style: solid;
+    border-width: 0.125em;
+    width: 8.125em;
+    padding: 0;
+    margin: 0;
 }
 
 h2{
-	text-decoration: none;
-	font-family: Wellfleet;
-	border-bottom-style: solid;
-	border-width: 0.125em;
-	width: 8.125em;
-	padding: 0;
-	margin: 0;
+    text-decoration: none;
+    font-family: Wellfleet;
+    border-bottom-style: solid;
+    border-width: 0.125em;
+    width: 8.125em;
+    padding: 0;
+    margin: 0;
 }
 
 a{
@@ -84,13 +86,14 @@ OBJECT{
 }
 
 .displayOfGame{
-	background-color: rgba(118, 93, 53, 0.6);
-	width: 99%;
-	height: 23%;
-	padding: 1% 1% 1.5% 0%;
-	margin: 1% 0 0 0;
+    background-color: rgba(118, 93, 53, 0.6);
+    width: 99%;
+    height: 23%;
+    padding: 1% 1% 1.5% 0%;
+    margin: 1% 0 0 0;
     text-align: center;
     border-radius: 5px;
+    display: inline-block;
 }
 
 .gametitle{
