@@ -1,12 +1,19 @@
 <!DOCTYPE html>
 
-<html lang="no">
+<html lang="en">
 <head>
         <link rel="stylesheet" type="text/css" href="../../stylesheets/stylesheetGame.css">
         <link href='https://fonts.googleapis.com/css?family=Wellfleet' rel='stylesheet'>
         <link rel="shortcut icon" href="../../pictures/icon.png">
   	<title>WG: Keyboard Warrior</title>
         <meta charset="UTF-8">
+        <script>
+        // When the user clicks on <div>, open the popup
+        function myFunction() {
+            var popup = document.getElementById("myPopup");
+            popup.classList.toggle("show");
+        }
+        </script>
 </head>
 <body>
 	<header>
@@ -26,6 +33,11 @@
                 <OBJECT classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" WIDTH="805" HEIGHT="500" id="KeyboardWarriorFinal.swf">
                 <PARAM NAME=movie VALUE="KeyboardWarriorFinal.swf"> <PARAM NAME=quality VALUE=high> <PARAM NAME=bgcolor VALUE=#333399> <EMBED src="KeyboardWarriorFinal.swf" quality=high bgcolor=#333399 WIDTH="805" HEIGHT="500" NAME=KeyboardWarriorFinal.swf TYPE="application/x-shockwave-flash" PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer"></EMBED>
                 </OBJECT>
+
+                <div class="popup" onclick="myFunction()">Not showing?
+                    <span class="popuptext" id="myPopup">You need to have Adobe Flash installed and enabled in your browser. More detailed help at <a href="https://www.drivereasy.com/knowledge/enable-flash-on-chrome-firefox-opera-and-edge-on-windows-10/">DriveEasy.</a></span>
+                </div>
+
 
             </div>
 

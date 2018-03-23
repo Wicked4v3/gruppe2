@@ -1,12 +1,19 @@
 <!DOCTYPE html>
 
-<html lang="no">
+<html lang="en">
 <head>
         <link rel="stylesheet" type="text/css" href="../../stylesheets/stylesheetGame.css">
         <link href='https://fonts.googleapis.com/css?family=Wellfleet' rel='stylesheet'>
         <link rel="shortcut icon" href="../../pictures/icon.png">
   	<title>WG: Konnectors</title>
         <meta charset="UTF-8">
+        <script>
+        // When the user clicks on <div>, open the popup
+        function myFunction() {
+            var popup = document.getElementById("myPopup");
+            popup.classList.toggle("show");
+        }
+        </script>
 </head>
 <body>
 	<header>
@@ -24,6 +31,11 @@
 
                 <!-- Iframe Here-->
                 <iframe src="http://www.freeonlinegames.com/embed/781" width="680" height="520" frameborder="no" scrolling="no"></iframe>
+
+                <div class="popup" onclick="myFunction()">Not showing?
+                    <span class="popuptext" id="myPopup">You need to have Adobe Flash installed and enabled in your browser. More detailed help at <a href="https://www.drivereasy.com/knowledge/enable-flash-on-chrome-firefox-opera-and-edge-on-windows-10/">DriveEasy.</a></span>
+                </div>
+
 
             </div>
 
